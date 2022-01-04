@@ -9,3 +9,58 @@
     />
   </a>
 </p>
+
+Go adalah bahasa pemograman open source yang sudah didukung oleh Google
+# Table of contents
+
+* [instalasi](#instalasi)
+* [getting started](#getting-started)
+  * [hello world](#hello-world)
+
+
+## instalasi
+Perintah untuk menginstall di linux(ubuntu 20.04)
+```console
+$ sudo apt install golang-go
+```
+perintah untuk mengecek apakah sudah terinstal si Go nya?
+```console
+$ go version
+```
+gampang kan ckck
+
+## getting started
+## hello world
+
+perintah untuk cloning dari repo ini
+pre requisite --> mesti banget punya pengetahuan minimal basic tentang version control/git
+```console
+$ git clone https://github.com/rizkydarmadi/Belajar-Go.git
+```
+perintah untuk pindah ke directory yang ada source codenya
+```console
+$ cd Basic/Helloworld
+```
+peritah untuk build dari source code ke binary file
+```console
+$ cd go build helloworld.go
+```
+lalu cek binary filenya
+```console
+$ ~/go/Basic/Helloworld$ ls
+helloworld  helloworld.go
+```
+itu yang gak ada extensi .go adalah binary file yang akan kita run
+yuk kita run
+```console
+$ ./helloworld 
+hello world
+```
+jika sudah tampil tulisanya maka sudah berhasil di run
+untuk cara cepatnya gini, tapi ini hanya untuk development ya bukan untuk production
+```console
+$ go run helloworld.go
+hello world
+```
+
+
