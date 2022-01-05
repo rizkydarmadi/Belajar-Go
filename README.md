@@ -16,7 +16,7 @@ Go adalah bahasa pemograman open source yang sudah didukung oleh Google
 # Table of contents
 
 * [instalasi](#instalasi)
-* [getting started](#getting-started)
+* [quick start](#quickstart)
   * [hello world](#hello-world)
   * [tipe data](#tipe-data)
   * * [boolean](#boolean)
