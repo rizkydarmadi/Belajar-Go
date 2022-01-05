@@ -36,7 +36,7 @@ $ go version
 ```
 gampang kan ckck
 
-## getting started
+## quickstart
 ### hello world
 
 perintah untuk cloning dari repo ini
