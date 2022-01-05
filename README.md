@@ -37,7 +37,7 @@ $ go version
 gampang kan ckck
 
 ## getting started
-## hello world
+### hello world
 
 perintah untuk cloning dari repo ini
 pre requisite --> mesti banget punya pengetahuan minimal basic tentang version control/git
@@ -70,14 +70,14 @@ $ go run helloworld.go
 hello world
 ```
 ## tipe-data
-## boolean
+### boolean
 ```
 func main()  {
 	fmt.Println("benar = ",true)
 	fmt.Println("salah = ",false)
 }
 ```
-## int-float
+### int-float
 ```
 func main()  {
 	fmt.Println("satu = ",1)
@@ -85,7 +85,7 @@ func main()  {
 	fmt.Println("Tiga Koma Lima = ", 3.5)
 }
 ```
-## string
+### string
 ```
 func main()  {
 	fmt.Println("taylor")
