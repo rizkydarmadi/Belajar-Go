@@ -22,6 +22,7 @@ Go adalah bahasa pemograman open source yang sudah didukung oleh Google
   * * [boolean](#boolean)
   * * [number](#int-float)
   * * [string](#string)
+  * * [konversi tipe data](#konversi-tipe-data)
   * [variable](#variable)
   * [constant](#constant)
   
@@ -99,7 +100,7 @@ func main()  {
 	fmt.Println("taylor swift"[1]) // menampilkan string index ke 1 - tapi hanya byte
 }
 ```
-### Konvesi tipe data
+### konversi-tipe-data
 konversi tipedata adalah mengubah misal dari int8 ke int32 atau int64, jika kalian tidak tau apa itu int32 [What is type int32 in Golang?](https://www.educative.io/edpresso/what-is-type-int32-in-golang) dan masih banyak lagi yang tentunya bisa dikonversi ke tipe data lain
 
 ```
