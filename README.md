@@ -42,7 +42,7 @@ gampang kan ckck
 ### hello world
 
 perintah untuk cloning dari repo ini
-pre requisite --> mesti banget punya pengetahuan minimal basic tentang version control/git
+pre requisite **mesti banget punya pengetahuan minimal basic tentang version control/git**
 ```console
 $ git clone https://github.com/rizkydarmadi/Belajar-Go.git
 ```
@@ -99,6 +99,31 @@ func main()  {
 	fmt.Println("taylor swift"[1]) // menampilkan string index ke 1 - tapi hanya byte
 }
 ```
+### Konvesi tipe data
+konversi tipedata adalah mengubah misal dari int8 ke int32 atau int64, jika kalian tidak tau apa itu int32 [What is type int32 in Golang?](https://www.educative.io/edpresso/what-is-type-int32-in-golang) dan masih banyak lagi yang tentunya bisa dikonversi ke tipe data lain
+
+```
+func main(){
+	// konversi tipe data angka
+	var nilai32 int32 = 100000
+	var nilai64 int64 = int64(nilai32)
+	var nilai8 int8 = int8(nilai32)
+
+	fmt.Println(nilai32)
+	fmt.Println(nilai64)
+	fmt.Println(nilai8) //nilai akan kembali ke titik terbawah karena int8 nilai maksimalnya hanyalah 127
+
+	//konversi byte to string
+	var name = "ariana grande"
+	var e = name[0]
+	var convertString = string(e)
+
+	fmt.Println(name) 
+	fmt.Println(e)
+	fmt.Println(convertString)
+}
+```
+
 ## variable
 variable adalah tempat untuk menamakan data, menyimpan data, inisialisasi data dll
 ada beberapa cara di bahasa pemograman go untuk membuat variable, check this out:
