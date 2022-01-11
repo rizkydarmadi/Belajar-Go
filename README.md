@@ -23,6 +23,7 @@ Go adalah bahasa pemograman open source yang sudah didukung oleh Google
   * * [number](#int-float)
   * * [string](#string)
   * [variable](#variable)
+  * [constant](#constant)
   
 
 
@@ -134,6 +135,27 @@ func main()  {
 }
 }
 ```
+## constant
+const sama seperti variable TAPI bedanya jika constan nilainya konsisten, contoh jika i = 10 lalu ada sebuah kondisi dimana i berubah menjadi angka lain atau tipe data lain misal i = 20, jika menggunakan const itu tidak bisa dilakukan karena constan ya konsisten lebih baik pake var jika tau nilainya akan berubah.
 
+```
+func main(){
+	// single constant
+	// const firstName string = "hindia"
+	// const lastName = "pamungkas"
+	// const value = 100
 
+	// multiple constant
+	const(
+		firstName = "hindia"
+		lastName = "pamungkas"
+		value = 200
+	)
+
+	fmt.Println(firstName)
+	fmt.Println(lastName)
+	fmt.Println(value)
+
+}
+```
 
