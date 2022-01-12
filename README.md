@@ -10,7 +10,8 @@
   </a>
 </p>
 
-Go adalah bahasa pemograman open source yang sudah didukung oleh Google
+Go adalah bahasa pemograman open source yang di buat di Google
+Golang dirilis perdana pada bulan November 2009. Golang telah digunakan di lingkungan produksi oleh Google dan perusahaan lain
 <br>
 [official documentation](https://go.dev/)
 # Table of contents
@@ -19,10 +20,10 @@ Go adalah bahasa pemograman open source yang sudah didukung oleh Google
 * [quick start](#quickstart)
   * [hello world](#hello-world)
   * [tipe data](#tipe-data)
-  * * [boolean](#boolean)
-  * * [number](#int-float)
-  * * [string](#string)
-  * * [konversi tipe data](#konversi-tipe-data)
+  	* [boolean](#boolean)
+  	* [number](#int-float)
+  	* [string](#string)
+  	* [konversi tipe data](#konversi-tipe-data)
   * [variable](#variable)
   * [constant](#constant)
   
