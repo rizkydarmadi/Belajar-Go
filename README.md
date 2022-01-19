@@ -38,7 +38,7 @@ perintah untuk mengecek apakah sudah terinstal si Go nya?
 ```console
 $ go version
 ```
-gampang kan ckck
+gampang kan 🙆
 
 ## quickstart
 ### hello world
@@ -49,10 +49,12 @@ pre requisite **mesti banget punya pengetahuan minimal basic tentang version con
 $ git clone https://github.com/rizkydarmadi/Belajar-Go.git
 ```
 perintah untuk pindah ke directory yang ada source codenya
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/Helloworld/helloworld.go)
 ```console
 $ cd Basic/Helloworld
 ```
 peritah untuk build dari source code ke binary file
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/Helloworld)
 ```console
 $ cd go build helloworld.go
 ```
@@ -75,6 +77,7 @@ hello world
 ```
 ## tipe-data
 ### boolean
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/tipe-data/boolean.go)
 ```
 func main()  {
 	fmt.Println("benar = ",true)
@@ -82,6 +85,9 @@ func main()  {
 }
 ```
 ### int-float
+`int` adalah bilangan bulat dan `float` adalah bilangan desimal atau pecahan atau yang ada koma-komanya
+
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/tipe-data/number.go)
 ```
 func main()  {
 	fmt.Println("satu = ",1)
@@ -90,6 +96,8 @@ func main()  {
 }
 ```
 ### string
+`string` yang ada tanda kutipnya `""`/`''` yang bisa buat nulis surat cinta
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/tipe-data/string.go)
 ```
 func main()  {
 	fmt.Println("taylor")
@@ -103,6 +111,7 @@ func main()  {
 ```
 ### konversi-tipe-data
 konversi tipedata adalah mengubah misal dari int8 ke int32 atau int64, jika kalian tidak tau apa itu int32 [What is type int32 in Golang?](https://www.educative.io/edpresso/what-is-type-int32-in-golang) dan masih banyak lagi yang tentunya bisa dikonversi ke tipe data lain
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/tipe-data/konversiTipeData.go)
 
 ```
 func main(){
