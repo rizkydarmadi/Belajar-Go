@@ -138,6 +138,8 @@ func main(){
 ## variable
 variable adalah tempat untuk menamakan data, menyimpan data, inisialisasi data dll
 ada beberapa cara di bahasa pemograman go untuk membuat variable, check this out:
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/variable/variable.go)
+
 ```
 func main()  {
 	func main(){
@@ -173,6 +175,10 @@ func main()  {
 ```
 ## constant
 const sama seperti variable TAPI bedanya jika constan nilainya konsisten, contoh jika i = 10 lalu ada sebuah kondisi dimana i berubah menjadi angka lain atau tipe data lain misal i = 20, jika menggunakan const itu tidak bisa dilakukan karena constan ya konsisten lebih baik pake var jika tau nilainya akan berubah.
+[source](https://github.com/rizkydarmadi/Belajar-Go/blob/main/Basic/constant/constant.go)
+
+
+
 
 ```
 func main(){
