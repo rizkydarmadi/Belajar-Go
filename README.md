@@ -26,6 +26,7 @@ Golang dirilis perdana pada bulan November 2009. Golang telah digunakan di lingk
   	* [konversi tipe data](#konversi-tipe-data)
   * [variable](#variable)
   * [constant](#constant)
+  * [pengkondisian](#pengkondisian)
   
 
 
@@ -200,4 +201,30 @@ func main(){
 
 }
 ```
+## pengkondisian
+pengkondisian terjadi disaat kita membutuhkan kata KALO,JIKA,SYARAT. misal:
+<br>
+ibu : nak, belliin sabun ya
+<br>
+anak : iya, yang merek apa 
+<br>
+ibu : sunlight
+<br>
+lalu anak itu jalan kewarung
+<br>
+anak : bang beli sabun sunlight dong
+<br>
+penjual : ok, ini ya
+<br>
+anak : bukan bang, ini merek mamalime saya mau sunlight
+<br>
+nah itu merupakan contoh pengkondisiian
+```
+if merekSabun != 'sunlight' {
+	fmt.Println('salah bang ini bukan sunlight')
+	}
+```
+
+yaa kurang lebih seperti itulah
+
 
