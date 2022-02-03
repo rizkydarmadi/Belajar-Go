@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	person := map[string]string{
-		"name":"anthony",
-		"addres":"jl Fatmawati",
+		"name":   "anthony",
+		"addres": "jl Fatmawati",
 	}
 	person["title"] = "employee"
 
@@ -21,5 +21,5 @@ func main(){
 	delete(book, "ups")
 
 	fmt.Println(book)
-	
+
 }
