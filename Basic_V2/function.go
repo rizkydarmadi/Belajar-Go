@@ -87,6 +87,17 @@ func registerUser(name string, blacklist func(string) bool){
 	}
 }
 
+//todo recursive function
+//todo fungsi yang memanggil dirinya sendiri
+
+func factorialRecursive(value int) int {
+
+	if value == 1{
+		return 1
+	} else {
+		return value * factorialRecursive(value -1)
+	}
+}
 
 
 func main(){
@@ -138,4 +149,9 @@ func main(){
 	}
 	registerUser("admin", blacklist)
 	registerUser("rizky",blacklist)
+
+	//todo memanggil recursive function
+	recursive := factorialRecursive((5))
+	fmt.Println(recursive)
+
 }
