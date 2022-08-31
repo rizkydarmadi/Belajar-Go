@@ -6,6 +6,9 @@ func logging(){
 	fmt.Println("selesai menjalankan program")
 }
 
+//! defer digunakan untuk memanggil fungsi sesudah fungsi utamanya
+//! kelar, walaupun terdapat error dia tetap dijalankan
+
 func runApp(value int){
 	defer logging()
 	fmt.Println("run app")
