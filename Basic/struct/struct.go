@@ -1,14 +1,63 @@
+// package main
+
+// import "fmt"
+
+// type Coustemer struct {
+// 	Name, Addres string
+// 	Age          int
+// }
+
+// func (coustemer Coustemer) sayHi(name string) {
+// 	fmt.Println("hello", name, "my name is", coustemer.Name)
+// }
+
+// func main() {
+// 	var biodata Coustemer
+// 	biodata.Name = "rizky"
+// 	biodata.Addres = "indonesia"
+// 	biodata.Age = 23
+
+// 	fmt.Println(biodata)
+
+// 	bowo := Coustemer{
+// 		Name:   "bowo",
+// 		Addres: "Indonesia",
+// 		Age:    30,
+// 	}
+
+// 	fmt.Println(bowo)
+
+// 	/**
+// 	untuk struct seperti ini perlu urutanya diingiat agar tidak berarturan wajib
+// 	sesuai dengan deklarasi pertamanya diatas
+// 	*/
+
+// 	julian := Coustemer{
+// 		"julian",
+// 		"indonesia",
+// 		28,
+// 	}
+// 	fmt.Println(julian)
+
+// 	bowo.sayHi("marisa")
+
+// }
+
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 type Coustemer struct {
 	Name, Addres string
 	Age          int
 }
 
-func (coustemer Coustemer) sayHi(name string) {
+func (coustemer *Coustemer) sayHi(name string) {
 	fmt.Println("hello", name, "my name is", coustemer.Name)
+	fmt.Println(&coustemer.Name)
 }
 
 func main() {
@@ -17,28 +66,10 @@ func main() {
 	biodata.Addres = "indonesia"
 	biodata.Age = 23
 
-	fmt.Println(biodata)
+	fmt.Println(&biodata.Name)
 
-	bowo := Coustemer{
-		Name:   "bowo",
-		Addres: "Indonesia",
-		Age:    30,
-	}
+	go biodata.sayHi("marisa")
 
-	fmt.Println(bowo)
-
-	/**
-	untuk struct seperti ini perlu urutanya diingiat agar tidak berarturan wajib
-	sesuai dengan deklarasi pertamanya diatas
-	*/
-
-	julian := Coustemer{
-		"julian",
-		"indonesia",
-		28,
-	}
-	fmt.Println(julian)
-
-	bowo.sayHi("marisa")
+	time.Sleep(1 * time.Second)
 
 }
